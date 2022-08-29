@@ -3,7 +3,6 @@
 using namespace std;
 int factorial(int n){
     // Checking git diff
-    // Making change for step 9
     if(n<0) 
     {
     	cout<<"Enter a positive number : ";
