@@ -5,10 +5,7 @@ int factorial(int n){
     // Checking git diff
     if(n<0) 
     {
-    	printf("Enter a positive number : ");
-    	int temp;
-    	cin>>temp;
-    	return factorial(temp);
+    	return -1;
     } 
     if(n!=1){
 	return(n * factorial(n-1));
